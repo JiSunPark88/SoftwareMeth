@@ -1,5 +1,8 @@
 # SoftwareMeth
 
+
+SongLib
+
 Design and implement an application with a graphical user interface to manage a library of songs. A song is uniquely identified by a combination of name and artist (case INsensitive). Your application should have a SINGLE WINDOW with three functions:
 
 Song list display, with the ability to select ONE song from the list.
