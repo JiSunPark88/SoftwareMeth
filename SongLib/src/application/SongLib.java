@@ -8,8 +8,7 @@ import javafx.stage.Stage;
 import view.ListController;
 
 public class SongLib extends Application {
-	public void start (Stage primaryStage) {
-		try {
+	public void start (Stage primaryStage) throws Exception {
 			FXMLLoader loader = new FXMLLoader();
 			loader.setLocation(getClass().getResource("/view/songLib.fxml"));
 			GridPane root = loader.load();
@@ -22,11 +21,8 @@ public class SongLib extends Application {
 			primaryStage.setScene(scene);
 			primaryStage.setResizable(true);
 			primaryStage.show();
-		}catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
-	
+
 	public static void main(String[] args) {
 		launch(args);
 	}
